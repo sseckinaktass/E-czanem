@@ -21,6 +21,12 @@ html {
 	width:940px;
 	position:relative;
 }
+.main .logo{
+	margin-top: -60px;
+	height: 150px;
+	width: 250px;
+	/* margin-bottom: 20px; */
+}
 
 .container_12 {
 	position:relative;
@@ -255,12 +261,16 @@ header h1 {
 
 
 .row-nav {
+	
 	background:url(../images/tail-bg-nav.png);
-	padding:6px 0 11px
+	padding:6px 10px 11px;
+	width: 100%;
+	height: 80px;
 }
 
 nav{float:right;padding:12px 0 0 0}
-.menu {
+
+.menu {	
 	font-size:0;
 	line-height:0;
 	padding:0;
